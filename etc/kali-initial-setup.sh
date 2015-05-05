@@ -23,8 +23,6 @@ echo "accidentally messing up your Kali image.  I would recommend instead you re
 echo "think about each step, and then apply the changes yourself by hand.  There aren't very many,"
 echo "and I've tried to ensure the script is reasonably well-commented."
 
-echo "To proceed, type the following (without quotes):  \"$DISK is correct\""
-echo
 read -p "Proceed? (y/N): " -n 1 -r
 echo 
 if [[ "$REPLY" != "Y" ]] && [[ "$REPLY" != "y" ]]; then
